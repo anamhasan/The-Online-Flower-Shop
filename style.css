@@ -1,6 +1,7 @@
 * {
     margin: 3px 4px 3px 4px;
     padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .banner-container {
@@ -8,7 +9,7 @@
     justify-content: space-around;
     background-color: rgba(229, 84, 115, 0.146);
     padding-top: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .banner-text {
@@ -43,11 +44,26 @@
     padding-top: 0px;
 }
 
-.flowertree {
-    display: flex;
-    justify-content: space-around;
+.bonus {
+    text-align: center;
 }
 
+.bonus-title {
+    padding-top: 150px;
+    padding-right: 170px;
+    color: #272727;
+    /* text-align: center; */
+    font-size: 35px;
+    line-height: 85px;
+}
+
+.bonus-description{
+    color: rgba(39, 39, 39, 0.566);
+    /* text-align: center; */
+    font-size: 16px;
+    padding-right: 200px;
+    line-height: 35px;
+}
 .box {
     width: 310px;
     height: 428px;

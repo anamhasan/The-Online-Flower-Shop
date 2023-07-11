@@ -1,0 +1,55 @@
+* {
+    margin: 3px 4px 3px 4px;
+    padding: 0px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.146);
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-text {
+    color: #272727;
+    padding-left: 150px;
+    padding-top: 150px;
+    font-size: 35px;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.566);
+    font-size: 16px;
+    padding-right: 200px;
+    line-height: 25px;
+}
+
+.btn {
+    padding: 20px 40px 20px 40px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 0px;
+}
+
+.flowertree {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 310px;
+    height: 428px;
+    list-style: none;
+}
